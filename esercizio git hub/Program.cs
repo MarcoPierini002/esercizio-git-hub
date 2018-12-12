@@ -10,9 +10,9 @@ namespace esercizio_git_hub
     {
         static void Main(string[] args)
         {
-            string risultato;
-            int num = 255;
-            risultato = "";
+            string risultato="";
+            int num  ;
+            num = Convert.ToInt32(Console.ReadLine());
             while (num>1)
             {
                 int resto = num % 2;
